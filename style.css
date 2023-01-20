@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@font-face {
+    font-family: 'Font-droid';
+    src: url(fonts/idroid/IDroid.otf);
+}
+
+:root{
+    --color1: rgb(1, 78, 1);
+    --color2: rgb(0, 110, 0);
+    --color3: rgb(113, 211, 113);
+    --color4: rgb(255, 255, 255);
+    --color5: rgb(0, 0, 0);
+    --color6: rgba(144, 238, 144, 0.178);
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color3);
+}
+
+header{
+    background-image: linear-gradient(to top, var(--color1), var(--color2), var(--color3));
+    padding: 8px;
+}
+
+header > h1{
+    font-family: 'Oswald', sans-serif;
+    color: var(--color4);
+    font-weight: 200;
+    font-size: 2.3em;
+    text-shadow: 1px 2px 6px var(--color5);
+    text-align: center;
+}
+
+header > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color4);
+    font-weight: normal;
+    font-size: 16px;
+    text-shadow: 1px 2px 6px var(--color5);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header > nav{
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.521);
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: var(--color4);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 10px 6px 10px;
+}
+
+#History > h1{
+    font-family: 'Font-droid', sans-serif;
+    font-size: 2em;
+    color: var(--color1);
+    text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.507);
+}
+
+header > nav > a:hover{
+    background-color: var(--color6);
+    border-radius: 4px;
+    text-decoration: underline;
+}
+
+p{
+    text-indent: 30px;
+}
+
+article{
+    text-indent: 30px;
+    padding: 10px;
+    text-align: justify;
+}
+
+aside{
+    text-indent: 30px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#First > h2{
+    font-family: 'Font-droid', sans-serif;
+    background-image: linear-gradient(to right, var(--color3), var(--color6));
+    color: var(--color1);
+}
+
+#Second > h2{
+    font-family: 'Font-droid', sans-serif;
+    background-image: linear-gradient(to right, var(--color3), var(--color6));
+    color: var(--color1);
+}
+
+main{
+    background-color: var(--color4);
+    min-width: 285px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
+}
+
+img{
+    width: 100%;
+}
+
+#bugdroid{
+    width: auto;
+}
+
+.video{
+    background-color: var(--color1);
+    border-radius: 0%;
+    margin: 0px -10px 0px -10px;
+}
+
+iframe{
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--color1);
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+span{
+    color: var(--color1);
+    font-weight: bold;
+}
+
+dl{
+    display: block;
+    display: inline-block;
+    padding: 10px 20px 10px 20px; 
+}
+
+
+
+h3{
+    background-color: var(--color2);
+    border-radius: 5px 5px 0px 0px;
+    color: var(--color4);
+    font-weight: bold;
+    padding: 10px;
+    text-indent: 10px;
+    margin: auto;
+}
+
+div{
+    background-color: var(--color3);
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+    margin: auto;
+}
+
+article > a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    margin: 0 auto;
+    background-color: var(--color1);
+    color: var(--color4);
+    padding: 5px;
+}
+
+.CursoemVideo{
+    color: var(--color4);
+    text-decoration: none;
+}
